@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace InlämningsUppgift1.Models
 {
-    internal class contact
+    internal class Contact
     {
         public string FirstName { get; set; }
         public string LastName { get; set; }
@@ -19,4 +19,5 @@ namespace InlämningsUppgift1.Models
          public string FullName => $"{FirstName} {LastName}";
         public string Address => $"{StreetName} {PostalCode} {City}";
     }
+
 }
